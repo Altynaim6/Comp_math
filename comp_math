@@ -1,0 +1,120 @@
+#include <stdio.h>
+
+int main() {
+    float e = 1.0f;
+    int n = 0;
+
+     while (1.0f + e > 1.0f) {
+        e = e / 10.0f;
+        n = n + 1;
+    }
+
+    printf("Iterations: %d", n);
+
+    return 0;
+}
+
+#include <stdio.h>
+
+int main() {
+    double e = 1.0;
+    int n = 0;
+
+    while (1.0 + e > 1.0) {
+        e = e / 10;
+        n = n + 1;
+    }
+    printf("Iterations: %d", n);
+
+    return 0;
+}
+
+#include <stdio.h>
+
+int main() {
+    int n = 0;
+    double z = 1.0;
+
+    while (2 * z > z) {
+        z = z / 10.0;
+        n = n + 1;   
+    }
+
+    printf("Iterations: %d", n);
+    return 0;
+}
+
+#include <stdio.h>
+
+int main() {
+    int n = 0;
+    float z = 1.0f;
+
+    while (2 * z > z) {
+        z = z / 10.0f; 
+        n = n + 1;   
+    }
+
+    printf("Iterations: %d", n);
+    return 0;
+}
+
+#include <stdio.h>
+
+int main() {
+    int n = 0;
+    float I = 1.0f;
+
+    while (I + 1 > I) {
+        I = 10.0f * I;  
+        n = n + 1;     
+    }
+
+    printf("Iterations: %d", n);
+    return 0;
+}
+
+#include <stdio.h>
+
+int main() {
+    int n = 0;
+    double I = 1.0;
+
+    while (I + 1 > I) {
+        I = 10.0 * I; 
+        n = n + 1;  
+    }
+
+    printf("Iterations: %d", n);
+    return 0;
+}
+
+#include <stdio.h>
+
+int main() {
+    int n = 0;
+    float I = 1.0f;
+
+    while (2 * I > I) {
+        I = 10.0f * I;
+        n = n + 1;    
+    }
+
+    printf("Iterations: %d", n);
+    return 0;
+}
+
+#include <stdio.h>
+
+int main() {
+    int n = 0;
+    double I = 1.0;
+
+    while (2 * I > I) {
+        I = 10.0 * I; 
+        n = n + 1;  
+    } 
+
+    printf("Iterations: %d", n);
+    return 0;
+}
